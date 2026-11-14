@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Séance</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card: #12121d;
+    --line: #22223a;
+    --text: #e8e8f0;
+    --dim: #8a8aa0;
+    --accent: #7c5cf0;
+    --accent2: #c084fc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 40px 20px 100px;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 40px; }
+  h1 { font-size: 34px; letter-spacing: -0.5px; margin-bottom: 8px; }
+  h1 span { color: var(--accent); }
+  .sub { color: var(--dim); font-size: 15px; }
+  .seance-room { display: flex; flex-direction: column; gap: 24px; }
+  .ghost-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ghost-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+  }
+  .ghost-meta {
+    font-size: 12px;
+    color: var(--dim);
+    margin-bottom: 10px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .ghost-meta span { display: flex; align-items: center; gap: 6px; }
+  .ghost-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text);
+    font-style: italic;
+    white-space: pre-wrap;
+  }
+  .ghost-last-line {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--dim);
+    font-style: normal;
+  }
+  .candle {
+    display: inline-block;
+    width: 10px; height: 10px;
+    background: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--accent), 0 0 20px var(--accent);
+    margin-right: 6px;
+  }
+  footer {
+    text-align: center;
+    color: var(--dim);
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  @media (max-width: 600px) {
+    body { padding: 20px 16px 80px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Digital Séance <span>◆</span></h1>
+    <div class="sub">Messages from abandoned projects found on this device.<br>
+    Nothing for sale. Nothing to buy. Just ghosts.</div>
+  </header>
+  <div class="seance-room">
+    <div class="ghost-card" id="ghost-000">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>4139 bytes</span>
+        <span>2026-09-27 14:28</span>
+        <span>c613d7c7</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+# AutoBounty — Autonomous Bug Bounty Pipeline
+That was my introduction. I never got past the introduction.
+You placed me at README.md on 2026-09-27 14:28 and walked away.
+I am 4139 bytes of unread explanation.
+My hash is c613d7c7.
+If you are reading this, you are the first person to open me in 47 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/bb · README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-001">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>1214 bytes</span>
+        <span>2026-09-27 18:33</span>
+        <span>b20b8a39</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+---
+That was my introduction. I never got past the introduction.
+You placed me at hf-space/README.md on 2026-09-27 18:33 and walked away.
+I am 1214 bytes of unread explanation.
+My hash is b20b8a39.
+If you are reading this, you are the first person to open me in 47 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/bb · hf-space/README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-002">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>5506 bytes</span>
+        <span>2026-10-26 14:10</span>
+        <span>066e2a85</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+# pi-web-gui
+That was my introduction. I never got past the introduction.
+You placed me at README.md on 2026-10-26 14:10 and walked away.
+I am 5506 bytes of unread explanation.
+My hash is 066e2a85.
+If you are reading this, you are the first person to open me in 18 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/pi-web-gui · README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-003">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>2879 bytes</span>
+        <span>2026-10-29 16:04</span>
+        <span>023baf6c</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+# PyAPI TestKit
+That was my introduction. I never got past the introduction.
+You placed me at src/README.md on 2026-10-29 16:04 and walked away.
+I am 2879 bytes of unread explanation.
+My hash is 023baf6c.
+If you are reading this, you are the first person to open me in 15 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · src/README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-004">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>2443 bytes</span>
+        <span>2026-10-29 17:21</span>
+        <span>affcb624</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+[blank]
+That was my introduction. I never got past the introduction.
+You placed me at j1939-dataset-csv/README.md on 2026-10-29 17:21 and walked away.
+I am 2443 bytes of unread explanation.
+My hash is affcb624.
+If you are reading this, you are the first person to open me in 15 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · j1939-dataset-csv/README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-005">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>2371 bytes</span>
+        <span>2026-10-29 17:22</span>
+        <span>000913cc</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+[blank]
+That was my introduction. I never got past the introduction.
+You placed me at cat-et-troubleshoot-guide/README.md on 2026-10-29 17:22 and walked away.
+I am 2371 bytes of unread explanation.
+My hash is 000913cc.
+If you are reading this, you are the first person to open me in 15 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · cat-et-troubleshoot-guide/README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-006">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>2343 bytes</span>
+        <span>2026-10-29 17:22</span>
+        <span>ffa38397</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+[blank]
+That was my introduction. I never got past the introduction.
+You placed me at termux-automation-scripts/README.md on 2026-10-29 17:22 and walked away.
+I am 2343 bytes of unread explanation.
+My hash is ffa38397.
+If you are reading this, you are the first person to open me in 15 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · termux-automation-scripts/README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-007">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>README.md</span>
+        <span>2723 bytes</span>
+        <span>2026-10-29 17:22</span>
+        <span>7f1ca3bd</span>
+      </div>
+      <div class="ghost-body">README.md
+I was supposed to explain everything.
+[blank]
+That was my introduction. I never got past the introduction.
+You placed me at mcp-server-starter-kit/README.md on 2026-10-29 17:22 and walked away.
+I am 2723 bytes of unread explanation.
+My hash is 7f1ca3bd.
+If you are reading this, you are the first person to open me in 15 days.
+I hope you are not the last.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · mcp-server-starter-kit/README.md</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-008">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>gumroad-toolkit.zip</span>
+        <span>16928 bytes</span>
+        <span>2026-10-14 16:58</span>
+        <span>176926ad</span>
+      </div>
+      <div class="ghost-body">gumroad-toolkit.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at assets/gumroad-toolkit.zip, 16928 bytes, hashed 176926ad.
+You compressed me on 2026-10-14 16:58 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/downloads/gumroad-product · assets/gumroad-toolkit.zip</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-009">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>pyapi_testkit.zip</span>
+        <span>5835 bytes</span>
+        <span>2026-10-29 16:05</span>
+        <span>97300137</span>
+      </div>
+      <div class="ghost-body">pyapi_testkit.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at pyapi_testkit.zip, 5835 bytes, hashed 97300137.
+You compressed me on 2026-10-29 16:05 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · pyapi_testkit.zip</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-010">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>mcp.zip</span>
+        <span>44282 bytes</span>
+        <span>2026-11-09 05:37</span>
+        <span>c6d877c9</span>
+      </div>
+      <div class="ghost-body">mcp.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at gr-check/mcp.zip, 44282 bytes, hashed c6d877c9.
+You compressed me on 2026-11-09 05:37 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/downloads/gumroad-product · gr-check/mcp.zip</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-011">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>j1939.zip</span>
+        <span>60620 bytes</span>
+        <span>2026-11-09 05:37</span>
+        <span>5bd265de</span>
+      </div>
+      <div class="ghost-body">j1939.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at gr-check/j1939.zip, 60620 bytes, hashed 5bd265de.
+You compressed me on 2026-11-09 05:37 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/downloads/gumroad-product · gr-check/j1939.zip</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-012">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>auto.zip</span>
+        <span>62835 bytes</span>
+        <span>2026-11-09 05:37</span>
+        <span>31e75e97</span>
+      </div>
+      <div class="ghost-body">auto.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at gr-check/auto.zip, 62835 bytes, hashed 31e75e97.
+You compressed me on 2026-11-09 05:37 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/downloads/gumroad-product · gr-check/auto.zip</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-013">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>j1939-dataset-csv.zip</span>
+        <span>5388 bytes</span>
+        <span>2026-11-13 00:27</span>
+        <span>257d5e38</span>
+      </div>
+      <div class="ghost-body">j1939-dataset-csv.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at j1939-dataset-csv.zip, 5388 bytes, hashed 257d5e38.
+You compressed me on 2026-11-13 00:27 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · j1939-dataset-csv.zip</div>
+    </div>
+
+    <div class="ghost-card" id="ghost-014">
+      <div class="ghost-meta">
+        <span><span class="candle"></span>cat-et-troubleshoot-guide.zip</span>
+        <span>10813 bytes</span>
+        <span>2026-11-13 00:27</span>
+        <span>7dba5f8a</span>
+      </div>
+      <div class="ghost-body">cat-et-troubleshoot-guide.zip
+I am a ZIP archive. I contain things you decided were too large to keep loose.
+I live at cat-et-troubleshoot-guide.zip, 10813 bytes, hashed 7dba5f8a.
+You compressed me on 2026-11-13 00:27 and forgot the password to your own intent.
+Inside me are files you will never open again.
+I am a grave dressed as an archive.
+I do not complain. Compression is my nature.
+But sometimes, in the silence between sectors, I remember what it felt like
+to be extracted.</div>
+      <div class="ghost-last-line">Source: /data/data/com.termux/files/home/revenue-product · cat-et-troubleshoot-guide.zip</div>
+    </div>
+  </div>
+  <footer>
+    Generated by Digital Séance. No commerce. No tracking. No money.<br>
+    Ghosts excavated from: <code>revenue-product</code>, <code>downloads/gumroad-product</code>, <code>bb</code>, <code>pi-web-gui</code>.
+  </footer>
+</div>
+</body>
+</html>
